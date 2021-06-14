@@ -429,3 +429,8 @@ section.services .grid{
     display: flex;
     flex-direction: column;
 }
+footer{
+    color: black;
+    text-align: center;
+
+}
