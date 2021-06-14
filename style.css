@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: rgb(233, 23, 23);
+}
+/* https://rzp.io/l/HcQS6WnT */
+/* kihamo1287@beydent.com */
+html{scroll-behavior: smooth;}
+header{
+    background-color:black;
+    clip-path: polygon(0 0,100% 0,100% 100%,80% 88%,0 100%);
+    
+}
+#logo{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    padding-right: 28px;
+}
+.left{
+    display: flex;
+    max-width: 1172px;
+    padding: 1px 15px;
+    margin: 0 auto;
+    
+}
+#lt{padding-top: 31px;
+    display: flex;
+     }
+#list{
+    padding-right: 9px;
+    margin-right:12px;
+    font-size: 22px;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 0.5px;
+
+    }
+#list:hover{
+        color:blanchedalmond;
+        cursor: pointer;
+    }
+
+#list a{
+    text-decoration: none;
+}
+#list a:hover{
+    color:blanchedalmond;
+    cursor: pointer;
+}
+#btn{
+    margin-left: 500px;
+    height:35px;
+    width: 100px;
+    margin-top: 30px;
+    padding: 8px;
+    background-color:rgb(153, 8, 8);
+    font-size:18px ;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    letter-spacing: 0.5px;
+}
+#btn:hover{
+    background-color: black;
+    border: 1px dashed blanchedalmond;
+    cursor: pointer;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+#btn a:hover{
+    text-decoration: none;
+    color: red;
+}
+#imgg{  height: 540px;
+    width: 750px;
+    margin-left: -5px;
+    padding:18px 70px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+            
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+.right{
+    padding:10px;
+    }
+.right h5{
+    font-size:22px;
+    color: rgb(197, 39, 39);
+    letter-spacing: 1px;
+    
+
+}
+.right h1{
+    font-size: 50px;
+    color:whitesmoke;
+}
+.right span{
+    color:rgb(190, 31, 31);
+}
+.right p{
+    font-size: 18px;
+    color: whitesmoke;
+    line-height: 25px;
+}
+.right button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border:2px solid rgb(151, 11, 11);
+    margin-top: 20px;
+    padding:1px;
+    border-radius: 5px;
+
+}
+.right button:hover{
+    background-color: rgb(180, 43, 43);
+    color:white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.right button a{
+    text-decoration: none;
+}
+.right button a:hover{ color: white;
+    text-decoration: none;
+}
+.about{padding-top: 18px;
+    margin-top: 100px;
+    margin-left: 280px;
+    margin-right: 280px;
+    display: flex;
+}
+.left2 img{
+    height: 450px;
+    width: 350px;
+}
+.right2{
+   padding-top: 100px;
+   padding-left: 50px;
+   padding-right: 30px;
+   background-color: rgb(247, 247, 247);
+   
+}
+.right2 h3{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+.right2 h7{
+    color:black;
+    font-size: 19px;
+    font-family: 'Mate SC', serif;
+}
+.right2 p{
+    color:black;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 22px;
+    font-family: 'Dancing Script', cursive;
+}
+.right2 #sl{
+    height:28px;
+    width: 100px;
+}
+.services{
+    margin-top: 89px;
+    background-color: rgb(247, 247, 247);;
+    padding: 100px;
+    text-align: center;
+  }
+.services h1{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    padding-bottom: 10px;
+    }
+.services #p1{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 50px;
+}
+.grip img{
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+    position:absolute;
+    top: -20px;
+    right: 122px;
+    
+}
+section.services .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 180px;
+    padding-right: 180px;
+    grid-column-gap: 1rem;
+    grid-row-gap:2rem;
+   }
+.grip{
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    padding:35px 31px;
+    position: relative;
+}
+   .grip h3{
+    color: black;
+    font-size: 18px;
+    padding-top: 7px;
+}
+.grip p{
+    color: black;
+    font-size: 16px;
+    padding-top: 15px;
+    
+}
+.grip1{
+        text-align: center;
+        background-color:black;
+        margin: 10px;
+        padding:35px 31px;
+        position: relative;
+}
+.grip1 img{
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+    position:absolute;
+    top: -20px;
+    right: 122px;
+}
+.grip1 h3{
+    color:rgb(151, 11, 11);
+    font-size: 18px;
+    padding-top: 7px;
+}
+.grip1 p{
+    color: white;
+    font-size: 16px;
+    padding-top: 15px;
+}    
+.free{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 150px;
+    background-color:black;
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 80%,0 100%);
+}
+.free h1{
+    font-size: 31px;
+}
+.free p{
+    color: blanchedalmond;
+    padding-top: 10px;
+}
+.free button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border:2px solid rgb(151, 11, 11);
+    margin-top: 20px;
+    padding:1px;
+    border-radius: 5px;
+
+}
+.free button:hover{
+    background-color: rgb(160, 25, 25);
+    color:white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.free button a{
+    text-decoration: none;
+}
+.free button a:hover{ color: white;
+    text-decoration: none;
+}
+.cilent{
+    padding-top: 50px;
+}
+.cilent h2{
+    color: black;
+    font-size: 31px;
+    text-align: center;
+
+}
+.cilent span{
+    font-size: 31px;
+    text-align: center;
+}
+#p4{
+    padding-bottom: 50px;
+    color: black;
+    text-align: center;
+}
+.cilent1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    margin-left: 40%;
+}
+.slide{
+    padding:0px 500px;
+   }
+.cilent1{
+    text-align: center;
+}
+.cilent1 h4{
+    color: black;
+    font-size: 18px;
+    font-family: 'Mate SC', serif;
+}
+.cilent1 p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;    
+}
+.dotslide{
+    margin-top:2rem;
+}
+.dotslide .dots{
+    list-style-type: none;
+    display: flex!important;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.dotslide button{
+    font-size: 0px;
+    height: 5px;
+    width: 10px;
+    margin-right: 3px;
+    border-radius:2px;
+    border: none;
+    background-color:grey;
+    cursor: pointer;
+}
+.dotslide .dots li.slick-active button{
+    background-color: rgb(196, 31, 31);
+    width: 19px;
+}
+.contact h4{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact p{ text-align: center;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 18px;
+}
+.symbol img{
+    height: 200px;
+    width: 200px;
+
+}
+.symbol h1{
+    color: black;
+    font-size: 16px;
+    font-family: 'Mate SC', serif;
+}
+.symbol h4{
+    font-size: 22px;
+    color: black;
+    font-family: 'Mate SC', serif;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+.symbol{
+    padding:5px 80px;
+    margin:0px 0px;
+    text-align: center;
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    text-align: center;
+    margin-top: 15px;
+    padding:0px 100px;
+}
+.email button{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    background-color: black;
+    border:2px solid black;
+    color:red;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding:1px;
+    border-radius: 5px;
+     }
+.email button:hover{
+    background-color:rgb(196, 31, 31);
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+}
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:1rem ;
+    margin-bottom: 15px;
+}
+.email input{
+    padding: 10px;
+    color: black;
+}
+.email textarea{
+    padding: 10px;
+    margin-top:15px ;
+    color: black;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+}
